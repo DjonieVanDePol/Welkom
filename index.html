@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stel jezelf voor.">
+      <title>Wie ben jij?</title>
+      <link rel="stylesheet" type="text/css" href="stijl.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+      <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.1.min.js"></script>
+            <script src="script.js" type="text/javascript"></script>
+        <noscript>Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.</noscript>
+</head>
+<body>
+  <h1>Welkom!</h1>
+    <p>
+      Hoi, vertel me wie jij bent!
+    </p>
+    <form>
+      <table>
+        <tr>
+          <td>
+            <label for="naam">Naam:</label>
+          </td>
+          <td>
+            <input type="text" name="naam" maxlength="32" id="a_naam" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="leeftijd">Leeftijd:</label>
+          </td>
+          <td>
+            <input type="numbers" name="leeftijd" maxlength="3" id="a_leeftijd" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="woonplaats">Woonplaats:</label>
+          </td>
+          <td>
+            <input type="text" name="woonplaats" maxlength="32" id="a_woonplaats" required>
+          </td>
+        </tr>
+      </table>
+    <input id="start" name="knop" type="button" value="Klik op deze knop">
+  </form>
+</body>
+</html>

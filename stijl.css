@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #CCFFCC;
+  margin: 25px;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  width: 150px;
+  border-radius: 5px;
+  padding: 2px 2px 2px 5px;
+}
+
+input#start {
+  width: 150px;
+  background-color: #009933;
+}
+
+input#start:hover {
+  background-color: #006600;
+}
+
+td {
+  padding: 5px;
+}
+
+table {
+  margin-bottom: 20px;
+}
